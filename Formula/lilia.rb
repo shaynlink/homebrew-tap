@@ -7,20 +7,20 @@ class Lilia < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/shaynlink/liliadb/releases/download/v#{version}/lilia-darwin-arm64.tar.gz"
-      sha256 "4c7a4e6f75eafc782918a3ce038e53af430f781c8e19690d3d77edcb9a9b8e38"
+      sha256 "140be767dfbf819aed10b1a462f2e465300868c38c8ab01051a11eeadd81b6c2"
     else
       url "https://github.com/shaynlink/liliadb/releases/download/v#{version}/lilia-darwin-x64.tar.gz"
-      sha256 "75c48e346d9f88a4e29d2aa3948d5c8028eb0287f368ed25383bb6c57d91eec8"
+      sha256 "ea3708186711845aac1c60d1c917465113cc6713906f1be7f5044213a536ffad"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/shaynlink/liliadb/releases/download/v#{version}/lilia-linux-arm64-gnu.tar.gz"
-      sha256 "bb01c8fb1727bbf915e9b6a54ae638e90b8235697cfc3be7bcaafb5c8763787b"
+      sha256 "b7f6079812a2c9f8e9217533400724c586aaad61e71b65f1cd814582b1aa6110"
     else
       url "https://github.com/shaynlink/liliadb/releases/download/v#{version}/lilia-linux-x64-gnu.tar.gz"
-      sha256 "73bb073f8c1d3d03059e91036ff0085fa9e4cbbb595198359891306b632d2307"
+      sha256 "b38924a311b6544488c631062ed8dd3f1f8fe3069c0d636ca6ddb43524bfebef"
     end
   end
 
